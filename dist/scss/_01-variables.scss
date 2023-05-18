@@ -1,0 +1,53 @@
+$clr-dark: hsl(0, 0, 18%);
+$clr-light: hsl(0, 0%, 100%);
+$clr-cyan: hsl(176, 80%, 40%);
+$clr-green: hsl(143, 99%, 27%);
+$clr-gray: hsl(0, 0%, 45%);
+$clr-l-gray: hsl(132, 26%, 96%);
+$clr-d-blue: hsl(209, 51%, 18%);
+$clr-blue: hsl(209, 90%, 49%);
+$transparent: transparent;
+
+$break-sm: 480px;
+$break-md: 768px;
+$break-lg: 1080px;
+$break-xl: 1920px;
+
+
+.btn{
+    padding:1.5rem 2rem;
+    border-radius:5rem;
+}
+
+.btn.white{
+    background:#fefefe;
+    color:#134A8C;
+   
+   
+}
+.btn.white:hover{
+    background: #134A8C;
+    color:white ;
+   
+}
+.btn.blue{
+    background: #134A8C;
+    color:white;
+   
+}
+.btn.blue:hover{
+    background:hwb(241 0% 51%);
+
+    
+}
+.btn.blue1{
+    background: #134A8C;
+    color:white;
+    border-radius: 3px solid white;
+   
+}
+.btn.blue1:hover{
+    background:hwb(241 0% 51%);
+
+    
+}

@@ -1,0 +1,51 @@
+// ======BANNER=====//
+.banner{
+    background-image: url(../img/banner_home_v1.jpg);
+   background-size: cover;
+   height: 80rem;
+&__text{
+    display: flex;
+    h1{
+        color: white;
+    font-size: 4rem;
+    // justify-content: center;
+    text-align: center;
+    }
+    p{
+      font-size: 1.5rem;
+      color: white;
+      text-align: center;
+      margin: 2rem;
+    }
+    .banner__btn{
+        
+        ul{
+    
+            li{
+               
+                display: flex;
+                justify-content: center;
+                margin-bottom: 2rem;
+                a{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .banner__social{
+        
+        ul{display: flex;
+          justify-content: center;
+          gap: 1rem;
+            li{
+               
+                font-size: 3rem;
+                color: white;
+               
+             
+            }
+        }
+    }
+}
+    
+}
