@@ -26,3 +26,10 @@
     grid-template-columns: repeat($cols, 1fr);
     grid-gap: $gap;
   }
+  
+  @mixin centerAll{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  // @include CenterAll PARA MAGAMIT CENTER ALL//

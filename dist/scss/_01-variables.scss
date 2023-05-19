@@ -5,7 +5,7 @@ $clr-green: hsl(143, 99%, 27%);
 $clr-gray: hsl(0, 0%, 45%);
 $clr-l-gray: hsl(132, 26%, 96%);
 $clr-d-blue: hsl(209, 51%, 18%);
-$clr-blue: hsl(209, 90%, 49%);
+$clr-blue:#134A8C;
 $transparent: transparent;
 
 $break-sm: 480px;
@@ -22,32 +22,75 @@ $break-xl: 1920px;
 .btn.white{
     background:#fefefe;
     color:#134A8C;
+    border: 2px solid white ;
+    width: 30rem;
+ 
    
    
 }
 .btn.white:hover{
     background: #134A8C;
     color:white ;
+    
+   
+}
+.btn.white1{
+    background:#fefefe;
+    color:#134A8C;
+    border: 2px solid white ;
+    
+ 
+   
+   
+}
+.btn.white1:hover{
+    background: #134A8C;
+    color:white ;
+    
    
 }
 .btn.blue{
     background: #134A8C;
     color:white;
+    // width: 30rem;
    
 }
 .btn.blue:hover{
-    background:hwb(241 0% 51%);
+    background:#103E76;
 
     
 }
 .btn.blue1{
     background: #134A8C;
     color:white;
-    border-radius: 3px solid white;
+    border: 2px solid #103E76 ;
    
 }
 .btn.blue1:hover{
-    background:hwb(241 0% 51%);
+    background:#103E76;
+
+    
+}
+.btn.blue2{
+    background: #134A8C;
+    color:white;
+   border:2px solid white;
+   
+}
+.btn.blue2:hover{
+    background: white;
+    color:#134A8C ;
+
+    
+}
+.btn.blue3{
+    background: #134A8C;
+    color:white;
+    // width: 40rem;
+   
+}
+.btn.blue3:hover{
+    background:#103E76;
 
     
 }
